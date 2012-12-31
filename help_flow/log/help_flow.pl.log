@@ -1,0 +1,772 @@
+20121030
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121029000000&etime=20121030000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryw74Ug1/
+download query result file...
+download finish
+file:20121029_help
+
+20121031
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121030000000&etime=20121031000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryPeyBH3/
+download query result file...
+download finish
+file:20121030_help
+
+20121101
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121031000000&etime=20121101000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryex4763/
+download query result file...
+download finish
+file:20121031_help
+
+20121102
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121101000000&etime=20121102000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121101000000&etime=20121102000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/querySYSlxL/
+download query result file...
+download finish
+file:20121101_help
+
+20121103
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121102000000&etime=20121103000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryNCMBgp/
+download query result file...
+download finish
+file:20121102_help
+
+20121104
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121103000000&etime=20121104000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/querysT2hBR/
+download query result file...
+download finish
+file:20121103_help
+
+20121105
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121104000000&etime=20121105000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryZiVh3u/
+download query result file...
+download finish
+file:20121104_help
+
+20121106
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121105000000&etime=20121106000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/query8K6AVG/
+download query result file...
+download finish
+file:20121105_help
+
+20121107
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121106000000&etime=20121107000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121106000000&etime=20121107000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryqk53wk/
+download query result file...
+download finish
+file:20121106_help
+
+20121108
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121107000000&etime=20121108000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryfgMTao/
+download query result file...
+download finish
+file:20121107_help
+
+20121109
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121108000000&etime=20121109000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121108000000&etime=20121109000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryMTEWZS/
+download query result file...
+download finish
+file:20121108_help
+
+20121110
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121109000000&etime=20121110000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121109000000&etime=20121110000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/query3oIoi1/
+download query result file...
+download finish
+file:20121109_help
+
+20121111
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121110000000&etime=20121111000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121110000000&etime=20121111000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/queryN3uVWb/
+download query result file...
+download finish
+file:20121110_help
+
+20121112
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121111000000&etime=20121112000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121111000000&etime=20121112000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryA3G6sU/
+download query result file...
+download finish
+file:20121111_help
+
+20121113
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121112000000&etime=20121113000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121112000000&etime=20121113000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/querynMFYlZ/
+download query result file...
+download finish
+file:20121112_help
+
+20121114
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121113000000&etime=20121114000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/querygshTrR/
+download query result file...
+download finish
+file:20121113_help
+
+20121115
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryjl9W8j/
+download query result file...
+download finish
+file:20121114_help
+
+20121116
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121115000000&etime=20121116000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryvf913r/
+download query result file...
+download finish
+file:20121115_help
+
+20121117
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121116000000&etime=20121117000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/queryLwuTMa/
+download query result file...
+download finish
+file:20121116_help
+sf-op@baidu.com support@baidu.com... Invalid route address
+20121118
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121117000000&etime=20121118000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryhE67Hp/
+download query result file...
+download finish
+file:20121117_help
+sf-op@baidu.com support@baidu.com... Invalid route address
+20121119
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121118000000&etime=20121119000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/query1M7Nyd/
+download query result file...
+download finish
+file:20121118_help
+sf-op@baidu.com support@baidu.com... Invalid route address
+20121120
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121119000000&etime=20121120000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121119000000&etime=20121120000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryGzZtSf/
+download query result file...
+download finish
+file:20121119_help
+sf-op@baidu.com support@baidu.com... Invalid route address
+20121120
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121119000000&etime=20121120000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/queryzvzbva/
+download query result file...
+download finish
+file:20121119_help
+sf-op@baidu.com support@baidu.com... Invalid route address
+20121121
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121120000000&etime=20121121000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121120000000&etime=20121121000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryLuI5SJ/
+download query result file...
+download finish
+file:20121120_help
+zuming@baidu.com guanwei01@baidu.com... Invalid route address
+20121122
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121121000000&etime=20121122000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121121000000&etime=20121122000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryf6ffyi/
+download query result file...
+download finish
+file:20121121_help
+
+20121123
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121122000000&etime=20121123000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121122000000&etime=20121123000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryG0Zl12/
+download query result file...
+download finish
+file:20121122_help
+
+20121124
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121123000000&etime=20121124000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121123000000&etime=20121124000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/querypqAxjL/
+download query result file...
+download finish
+file:20121123_help
+
+20121125
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121124000000&etime=20121125000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121124000000&etime=20121125000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/query62a6fr/
+download query result file...
+download finish
+file:20121124_help
+
+20121126
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121125000000&etime=20121126000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121125000000&etime=20121126000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryLA7ACt/
+download query result file...
+download finish
+file:20121125_help
+
+20121127
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121126000000&etime=20121127000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121126000000&etime=20121127000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/querybzlNDt/
+download query result file...
+download finish
+file:20121126_help
+
+20121128
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121127000000&etime=20121128000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121127000000&etime=20121128000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/queryfytV5A/
+download query result file...
+download finish
+file:20121127_help
+
+20121129
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121128000000&etime=20121129000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121128000000&etime=20121129000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/query1ZXg4m/
+download query result file...
+download finish
+file:20121128_help
+
+20121130
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121129000000&etime=20121130000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121129000000&etime=20121130000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryNIZZrb/
+download query result file...
+download finish
+file:20121129_help
+
+20121201
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121130000000&etime=20121201000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryDbfhkU/
+download query result file...
+download finish
+file:20121130_help
+
+20121202
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121201000000&etime=20121202000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/query3uEXym/
+download query result file...
+download finish
+file:20121201_help
+
+20121203
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121202000000&etime=20121203000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/query52gBBy/
+download query result file...
+download finish
+file:20121202_help
+
+20121204
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121203000000&etime=20121204000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryd54CDi/
+download query result file...
+download finish
+file:20121203_help
+
+20121205
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121204000000&etime=20121205000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/querypxZdzL/
+download query result file...
+download finish
+file:20121204_help
+
+20121206
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121205000000&etime=20121206000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryEGYJaO/
+download query result file...
+download finish
+file:20121205_help
+
+20121207
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121206000000&etime=20121207000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121206000000&etime=20121207000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryz3abya/
+download query result file...
+download finish
+file:20121206_help
+
+20121208
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121207000000&etime=20121208000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121207000000&etime=20121208000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryhPdhIw/
+download query result file...
+download finish
+file:20121207_help
+
+20121209
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121208000000&etime=20121209000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/querywZgs7G/
+download query result file...
+download finish
+file:20121208_help
+
+20121210
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121209000000&etime=20121210000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryFoAfgS/
+download query result file...
+download finish
+file:20121209_help
+
+20121211
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121210000000&etime=20121211000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/querynkrUeL/
+download query result file...
+download finish
+file:20121210_help
+
+20121212
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121211000000&etime=20121212000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/querycVxBpo/
+download query result file...
+download finish
+file:20121211_help
+
+20121213
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121212000000&etime=20121213000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryoFfKdT/
+download query result file...
+download finish
+file:20121212_help
+
+20121214
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121213000000&etime=20121214000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryuafOaB/
+download query result file...
+download finish
+file:20121213_help
+
+20121215
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121214000000&etime=20121215000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/query2sZElk/
+download query result file...
+download finish
+file:20121214_help
+
+20121216
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121215000000&etime=20121216000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/queryu9CSwC/
+download query result file...
+download finish
+file:20121215_help
+
+20121217
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121216000000&etime=20121217000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/querygWj0e0/
+download query result file...
+download finish
+file:20121216_help
+
+20121218
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121217000000&etime=20121218000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryjhujZ4/
+download query result file...
+download finish
+file:20121217_help
+
+20121219
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121218000000&etime=20121219000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/query0NwXbe/
+download query result file...
+download finish
+file:20121218_help
+
+20121220
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121219000000&etime=20121220000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121219000000&etime=20121220000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryZBJTUB/
+download query result file...
+download finish
+file:20121219_help
+
+20121221
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121220000000&etime=20121221000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryJnRaqh/
+download query result file...
+download finish
+file:20121220_help
+
+20121222
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121221000000&etime=20121222000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryqR4YxC/
+download query result file...
+download finish
+file:20121221_help
+
+20121223
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121222000000&etime=20121223000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryH7otG5/
+download query result file...
+download finish
+file:20121222_help
+
+20121224
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121223000000&etime=20121224000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryKlKFXu/
+download query result file...
+download finish
+file:20121223_help
+
+20121225
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 jx-sf-help00.jx m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 8
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,jx-sf-help00.jx,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121224000000&etime=20121225000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryLW8XL6/
+download query result file...
+download finish
+file:20121224_help
+
+20121226
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 7
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121225000000&etime=20121226000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryKKw451/
+download query result file...
+download finish
+file:20121225_help
+
+20121227
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 7
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121226000000&etime=20121227000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/queryDQhE9V/
+download query result file...
+download finish
+file:20121226_help
+
+20121228
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 7
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121227000000&etime=20121228000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 7
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121227000000&etime=20121228000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/query4JVHNx/
+download query result file...
+download finish
+file:20121227_help
+
+20121229
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 7
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121228000000&etime=20121229000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryy0VyKy/
+download query result file...
+download finish
+file:20121228_help
+
+20121230
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 7
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121229000000&etime=20121230000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryBg6GIF/
+download query result file...
+download finish
+file:20121229_help
+
+20121231
+cq01-sf-help00.cq01 cq01-sf-help01.cq01 m1-sf-help00.m1 m1-sf-help01.m1 tc-sf-help00.tc tc-sf-help02.tc tc-sf-help03.tc 7
+type=machine&host=cq01-sf-help00.cq01,cq01-sf-help01.cq01,m1-sf-help00.m1,m1-sf-help01.m1,tc-sf-help00.tc,tc-sf-help02.tc,tc-sf-help03.tc&node=&item=help_flow&stime=20121230000000&etime=20121231000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/query6ysFUA/
+download query result file...
+download finish
+file:20121230_help
+

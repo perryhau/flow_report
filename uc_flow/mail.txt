@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=gbk">
+ <STYLE type=text/css>
+*     { FONT-SIZE: 14px; 
+        FONT-FAMILY: ??ì?  
+}
+H2    { FONT-SIZE: 20px; 
+        TEXT-ALIGN: center;
+        COLOR: #FF0000;
+}
+BODY  { FONT-SIZE: 12px 
+}
+TABLE { MARGIN: 0px auto; 
+        BORDER-COLLAPSE: collapse; 
+        TEXT-ALIGN: center;
+}
+TD {
+        BORDER-RIGHT: #888 1px solid; 
+        PADDING-RIGHT: 4px; 
+        BORDER-TOP: #888 1px solid; 
+        PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; 
+        BORDER-LEFT: #888 1px solid; PADDING-TOP: 1px; 
+        BORDER-BOTTOM: #888 1px solid;
+        height:25; 
+}
+TR.header { 
+        COLOR:#FFFFFF;
+        BACKGROUND-COLOR:#000000;
+        font-weight:bold;
+}
+TR.label {
+        #BACKGROUND-COLOR: #00b0f0;
+        font-weight:bold;
+}
+TR.label2 {
+        #BACKGROUND-COLOR: #93cddd;
+}
+.red {color: #FF0000}
+.green {color: #00FF00}
+.bold {font-weight:bold}
+</STYLE>
+ 
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>总访问量
+			<tr class="label"> 
+		      <td rowspan=2>机房
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td class='bold'>cq01 <td>4,423,509
+                                  <td>3,001,395 <td class=red>47.38%
+                                  <td>6,033,727 <td class=green>-26.69%
+<tr><td class='bold'>jx <td>2,238,597
+                                  <td>1,523,139 <td class=red>46.97%
+                                  <td>3,009,937 <td class=green>-25.63%
+<tr><td class='bold'>tc <td>2,947,430
+                                  <td>2,001,416 <td class=red>47.27%
+                                  <td>4,002,767 <td class=green>-26.37%
+<tr><td class='bold'>m1 <td>4,433,842
+                                  <td>3,007,794 <td class=red>47.41%
+                                  <td>5,990,601 <td class=green>-25.99%
+<tr><td class='bold'>all <td>14,043,378
+                                  <td>9,533,744 <td class=red>47.30%
+                                  <td>19,037,032 <td class=green>-26.23%
+</TBODY></TABLE><br></div>
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>各服务器访问量
+			<tr class="label"> 
+		      <td rowspan=2>机器
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td class='bold'>tc-dr-ucsvc04.tc <td>739,065 
+                                  <td>500,798 <td class=red>47.58%
+                                  <td>1,006,216 <td class=green>-26.55%
+<tr><td class='bold'>tc-dr-ucsvc00.tc <td>736,148 
+                                  <td>499,788 <td class=red>47.29%
+                                  <td>994,123 <td class=green>-25.95%
+<tr><td class='bold'>cq01-dr-ucsvc05.cq01 <td>739,060 
+                                  <td>503,801 <td class=red>46.70%
+                                  <td>1,006,548 <td class=green>-26.57%
+<tr><td class='bold'>cq01-dr-ucsvc02.cq01 <td>737,761 
+                                  <td>499,001 <td class=red>47.85%
+                                  <td>1,006,505 <td class=green>-26.70%
+<tr><td class='bold'>cq01-dr-ucsvc04.cq01 <td>738,021 
+                                  <td>501,535 <td class=red>47.15%
+                                  <td>1,005,702 <td class=green>-26.62%
+<tr><td class='bold'>m1-dr-ucsvc04.m1 <td>734,029 
+                                  <td>495,329 <td class=red>48.19%
+                                  <td>1,006,034 <td class=green>-27.04%
+<tr><td class='bold'>cq01-dr-ucsvc01.cq01 <td>735,077 
+                                  <td>500,269 <td class=red>46.94%
+                                  <td>1,004,621 <td class=green>-26.83%
+<tr><td class='bold'>m1-dr-ucsvc05.m1 <td>734,851 
+                                  <td>505,318 <td class=red>45.42%
+                                  <td>1,005,419 <td class=green>-26.91%
+<tr><td class='bold'>m1-dr-ucsvc01.m1 <td>745,801 
+                                  <td>503,611 <td class=red>48.09%
+                                  <td>985,950 <td class=green>-24.36%
+<tr><td class='bold'>cq01-dr-ucsvc03.cq01 <td>737,386 
+                                  <td>499,290 <td class=red>47.69%
+                                  <td>1,005,952 <td class=green>-26.70%
+<tr><td class='bold'>tc-dr-ucsvc02.tc <td>740,260 
+                                  <td>501,423 <td class=red>47.63%
+                                  <td>1,006,611 <td class=green>-26.46%
+<tr><td class='bold'>jx-dr-ucsvc00.jx <td>741,061 
+                                  <td>504,267 <td class=red>46.96%
+                                  <td>998,898 <td class=green>-25.81%
+<tr><td class='bold'>cq01-dr-ucsvc00.cq01 <td>736,204 
+                                  <td>497,499 <td class=red>47.98%
+                                  <td>1,004,399 <td class=green>-26.70%
+<tr><td class='bold'>m1-dr-ucsvc00.m1 <td>740,960 
+                                  <td>498,907 <td class=red>48.52%
+                                  <td>1,010,515 <td class=green>-26.68%
+<tr><td class='bold'>m1-dr-ucsvc02.m1 <td>745,511 
+                                  <td>506,026 <td class=red>47.33%
+                                  <td>985,430 <td class=green>-24.35%
+<tr><td class='bold'>jx-dr-ucsvc01.jx <td>753,593 
+                                  <td>507,204 <td class=red>48.58%
+                                  <td>996,783 <td class=green>-24.40%
+<tr><td class='bold'>m1-dr-ucsvc03.m1 <td>732,690 
+                                  <td>498,603 <td class=red>46.95%
+                                  <td>997,253 <td class=green>-26.53%
+<tr><td class='bold'>tc-dr-ucsvc01.tc <td>731,957 
+                                  <td>499,407 <td class=red>46.57%
+                                  <td>995,817 <td class=green>-26.50%
+<tr><td class='bold'>jx-dr-ucsvc03.jx <td>743,943 
+                                  <td>511,668 <td class=red>45.40%
+                                  <td>1,014,256 <td class=green>-26.65%
+</TBODY></TABLE><br></div>
+</BODY></HEAD></HTML>

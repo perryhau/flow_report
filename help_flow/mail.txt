@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=gbk">
+ <STYLE type=text/css>
+*     { FONT-SIZE: 14px; 
+        FONT-FAMILY: ??ì?  
+}
+H2    { FONT-SIZE: 20px; 
+        TEXT-ALIGN: center;
+        COLOR: #FF0000;
+}
+BODY  { FONT-SIZE: 12px 
+}
+TABLE { MARGIN: 0px auto; 
+        BORDER-COLLAPSE: collapse; 
+        TEXT-ALIGN: center;
+}
+TD {
+        BORDER-RIGHT: #888 1px solid; 
+        PADDING-RIGHT: 4px; 
+        BORDER-TOP: #888 1px solid; 
+        PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; 
+        BORDER-LEFT: #888 1px solid; PADDING-TOP: 1px; 
+        BORDER-BOTTOM: #888 1px solid;
+        height:25; 
+}
+TR.header { 
+        COLOR:#FFFFFF;
+        BACKGROUND-COLOR:#000000;
+        font-weight:bold;
+}
+TR.label {
+        #BACKGROUND-COLOR: #00b0f0;
+        font-weight:bold;
+}
+TR.label2 {
+        #BACKGROUND-COLOR: #93cddd;
+}
+.red {color: #FF0000}
+.green {color: #00FF00}
+.bold {font-weight:bold}
+</STYLE>
+ 
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>总访问量
+			<tr class="label"> 
+		      <td rowspan=2>机房
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td class='bold'>tc <td>1,749,695
+                                  <td>1,354,562 <td class=red>29.17%
+                                  <td>2,323,880 <td class=green>-24.71%
+<tr><td class='bold'>m1 <td>1,166,231
+                                  <td>676,905 <td class=red>72.29%
+                                  <td>1,536,977 <td class=green>-24.12%
+<tr><td class='bold'>cq01 <td>1,161,283
+                                  <td>677,120 <td class=red>71.50%
+                                  <td>1,534,662 <td class=green>-24.33%
+<tr><td class='bold'>all <td>4,077,209
+                                  <td>2,708,587 <td class=red>50.53%
+                                  <td>5,395,519 <td class=green>-24.43%
+</TBODY></TABLE><br></div>
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>各服务器访问量
+			<tr class="label"> 
+		      <td rowspan=2>机器
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td class='bold'>m1-sf-help01.m1 <td>582,646 
+                                  <td>338,663 <td class=red>72.04%
+                                  <td>768,637 <td class=green>-24.20%
+<tr><td class='bold'>tc-sf-help03.tc <td>581,184 
+                                  <td>336,496 <td class=red>72.72%
+                                  <td>773,089 <td class=green>-24.82%
+<tr><td class='bold'>m1-sf-help00.m1 <td>583,585 
+                                  <td>338,242 <td class=red>72.53%
+                                  <td>768,340 <td class=green>-24.05%
+<tr><td class='bold'>cq01-sf-help01.cq01 <td>580,436 
+                                  <td>338,437 <td class=red>71.50%
+                                  <td>766,489 <td class=green>-24.27%
+<tr><td class='bold'>tc-sf-help00.tc <td>584,203 
+                                  <td>680,355 <td class=green>-14.13%
+                                  <td>777,492 <td class=green>-24.86%
+<tr><td class='bold'>cq01-sf-help00.cq01 <td>580,847 
+                                  <td>338,683 <td class=red>71.50%
+                                  <td>768,173 <td class=green>-24.39%
+<tr><td class='bold'>tc-sf-help02.tc <td>584,308 
+                                  <td>337,711 <td class=red>73.02%
+                                  <td>773,299 <td class=green>-24.44%
+</TBODY></TABLE><br></div>
+</BODY></HEAD></HTML>

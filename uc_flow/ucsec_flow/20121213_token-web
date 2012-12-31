@@ -1,0 +1,12 @@
+jx-dr-ucsec00.jx 1232
+tc-dr-ucsec01.tc 1189
+tc-dr-ucsec00.tc 1233
+all 8530
+m1-dr-ucsec01.m1 1204
+jx 2463
+tc 2422
+cq01-dr-ucsec00.cq01 1208
+m1 2437
+jx-dr-ucsec01.jx 1231
+m1-dr-ucsec00.m1 1233
+cq01 1208

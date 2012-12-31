@@ -1,0 +1,12 @@
+jx-dr-ucsec00.jx 2048
+tc-dr-ucsec01.tc 2010
+tc-dr-ucsec00.tc 2048
+all 14196
+m1-dr-ucsec01.m1 2002
+jx 4096
+tc 4058
+cq01-dr-ucsec00.cq01 2040
+m1 4002
+jx-dr-ucsec01.jx 2048
+m1-dr-ucsec00.m1 2000
+cq01 2040

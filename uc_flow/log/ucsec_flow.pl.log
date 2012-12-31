@@ -1,0 +1,581 @@
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121020000000&etime=20121021000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryAfzNHo/
+download query result file...
+download finish
+file:20121020_ucsec
+jx-dr-ucsec00.jx => 1081243
+tc-dr-ucsec01.tc => 1067142
+tc-dr-ucsec00.tc => 1066848
+all => 7,494,845
+m1-dr-ucsec01.m1 => 1066392
+jx => 2165346
+tc => 2133990
+cq01-dr-ucsec00.cq01 => 1060175
+m1 => 2135334
+jx-dr-ucsec01.jx => 1084103
+m1-dr-ucsec00.m1 => 1068942
+cq01 => 1060175
+20121022
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121021000000&etime=20121022000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryIv89qR/
+download query result file...
+download finish
+file:20121021_ucsec
+20121022
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121021000000&etime=20121022000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryrYXgbc/
+download query result file...
+download finish
+file:20121021_ucsec
+
+jx-dr-ucsec00.jx => 654741
+tc-dr-ucsec01.tc => 658854
+tc-dr-ucsec00.tc => 659212
+all => 4,574,523
+m1-dr-ucsec01.m1 => 646279
+jx => 1311600
+tc => 1318066
+cq01-dr-ucsec00.cq01 => 652696
+m1 => 1292161
+jx-dr-ucsec01.jx => 656859
+m1-dr-ucsec00.m1 => 645882
+cq01 => 652696
+20121023
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121022000000&etime=20121023000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/query8sRdvN/
+download query result file...
+download finish
+file:20121022_ucsec
+
+jx-dr-ucsec00.jx => 833211
+tc-dr-ucsec01.tc => 825011
+tc-dr-ucsec00.tc => 824289
+all => 5,796,046
+m1-dr-ucsec01.m1 => 827574
+jx => 1670473
+tc => 1649300
+cq01-dr-ucsec00.cq01 => 830245
+m1 => 1646028
+jx-dr-ucsec01.jx => 837262
+m1-dr-ucsec00.m1 => 818454
+cq01 => 830245
+20121024
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121023000000&etime=20121024000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryQlvPmE/
+download query result file...
+download finish
+file:20121023_ucsec
+
+jx-dr-ucsec00.jx => 996859
+tc-dr-ucsec01.tc => 966590
+tc-dr-ucsec00.tc => 968576
+all => 6,773,207
+m1-dr-ucsec01.m1 => 926194
+jx => 1977414
+tc => 1935166
+cq01-dr-ucsec00.cq01 => 973122
+m1 => 1887505
+jx-dr-ucsec01.jx => 980555
+m1-dr-ucsec00.m1 => 961311
+cq01 => 973122
+20121025
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121024000000&etime=20121025000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryTgaK2V/
+download query result file...
+download finish
+file:20121024_ucsec
+
+20121026
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121025000000&etime=20121026000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121025000000&etime=20121026000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/querywCja2Z/
+download query result file...
+download finish
+file:20121025_ucsec
+
+20121027
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121026000000&etime=20121027000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121026000000&etime=20121027000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/queryKCTbqC/
+download query result file...
+download finish
+file:20121026_ucsec
+
+20121028
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121027000000&etime=20121028000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryxn7TzY/
+download query result file...
+download finish
+file:20121027_ucsec
+
+20121029
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121028000000&etime=20121029000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/querymsv4kw/
+download query result file...
+download finish
+file:20121028_ucsec
+
+20121030
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121029000000&etime=20121030000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/querySlU6oc/
+download query result file...
+download finish
+file:20121029_ucsec
+
+20121031
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121030000000&etime=20121031000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryDZpFIh/
+download query result file...
+download finish
+file:20121030_ucsec
+
+20121101
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121031000000&etime=20121101000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryV7CbST/
+download query result file...
+download finish
+file:20121031_ucsec
+
+20121102
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121101000000&etime=20121102000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryX8v0Av/
+download query result file...
+download finish
+file:20121101_ucsec
+
+20121103
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121102000000&etime=20121103000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryF4DPhe/
+download query result file...
+download finish
+file:20121102_ucsec
+
+20121104
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121103000000&etime=20121104000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121103000000&etime=20121104000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/querySvQq2d/
+download query result file...
+download finish
+file:20121103_ucsec
+
+20121105
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121104000000&etime=20121105000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121104000000&etime=20121105000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryU3ZpGi/
+download query result file...
+download finish
+file:20121104_ucsec
+
+20121106
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121105000000&etime=20121106000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/querytnqbRi/
+download query result file...
+download finish
+file:20121105_ucsec
+
+20121107
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121106000000&etime=20121107000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121106000000&etime=20121107000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/querybJ7yPy/
+download query result file...
+download finish
+file:20121106_ucsec
+
+20121108
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121107000000&etime=20121108000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121107000000&etime=20121108000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryrYsyVr/
+download query result file...
+download finish
+file:20121107_ucsec
+
+20121109
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121108000000&etime=20121109000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryVXbWD0/
+download query result file...
+download finish
+file:20121108_ucsec
+
+20121110
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121109000000&etime=20121110000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryh8NYCH/
+download query result file...
+download finish
+file:20121109_ucsec
+
+20121111
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121110000000&etime=20121111000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/querys9tt8a/
+download query result file...
+download finish
+file:20121110_ucsec
+
+20121112
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121111000000&etime=20121112000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryYXSlpB/
+download query result file...
+download finish
+file:20121111_ucsec
+
+20121113
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121112000000&etime=20121113000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryMO8s9g/
+download query result file...
+download finish
+file:20121112_ucsec
+
+20121114
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121113000000&etime=20121114000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryxaEBO3/
+download query result file...
+download finish
+file:20121113_ucsec
+
+20121115
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 52 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 52 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryFEhLa7/
+download query result file...
+download finish
+file:20121114_ucsec
+
+20121116
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121115000000&etime=20121116000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/query1NYQhF/
+download query result file...
+download finish
+file:20121115_ucsec
+
+20121117
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121116000000&etime=20121117000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryrCQj6L/
+download query result file...
+download finish
+file:20121116_ucsec
+
+20121118
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121117000000&etime=20121118000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121117000000&etime=20121118000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryTvFeSs/
+download query result file...
+download finish
+file:20121117_ucsec
+
+20121119
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121118000000&etime=20121119000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/querycAGQCY/
+download query result file...
+download finish
+file:20121118_ucsec
+
+20121120
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121119000000&etime=20121120000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121119000000&etime=20121120000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryx6oNGU/
+download query result file...
+download finish
+file:20121119_ucsec
+
+20121121
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121120000000&etime=20121121000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryriyv4e/
+download query result file...
+download finish
+file:20121120_ucsec
+
+20121122
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121121000000&etime=20121122000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryzoXUqn/
+download query result file...
+download finish
+file:20121121_ucsec
+
+20121123
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121122000000&etime=20121123000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121122000000&etime=20121123000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryVi3iIL/
+download query result file...
+download finish
+file:20121122_ucsec
+
+20121124
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121123000000&etime=20121124000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryOqCx39/
+download query result file...
+download finish
+file:20121123_ucsec
+
+20121125
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121124000000&etime=20121125000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121124000000&etime=20121125000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryZ56F6o/
+download query result file...
+download finish
+file:20121124_ucsec
+
+20121126
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121125000000&etime=20121126000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryt2WtHb/
+download query result file...
+download finish
+file:20121125_ucsec
+
+20121127
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121126000000&etime=20121127000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/querydLfz05/
+download query result file...
+download finish
+file:20121126_ucsec
+
+20121128
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121127000000&etime=20121128000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryPeqd0a/
+download query result file...
+download finish
+file:20121127_ucsec
+
+20121129
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121128000000&etime=20121129000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+cq01-dr-ucsec00.cq01 jx-dr-ucsec00.jx jx-dr-ucsec01.jx m1-dr-ucsec00.m1 m1-dr-ucsec01.m1 tc-dr-ucsec00.tc tc-dr-ucsec01.tc 7
+type=machine&host=cq01-dr-ucsec00.cq01,jx-dr-ucsec00.jx,jx-dr-ucsec01.jx,m1-dr-ucsec00.m1,m1-dr-ucsec01.m1,tc-dr-ucsec00.tc,tc-dr-ucsec01.tc&node=&item=uc-secure_apache_flow&stime=20121128000000&etime=20121129000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryDiwMR7/
+download query result file...
+download finish
+file:20121128_ucsec
+

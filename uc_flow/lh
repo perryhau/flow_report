@@ -1,0 +1,684 @@
+#!/usr/bin/perl 
+###############################################################
+# lh / ListHost 客户端 / ListHost Client / 服务器列表服务器客户端
+# 作者：赵楠 zhaonan@baidu.com
+# 版本：0.9.2.0beta
+# 第一版：2006-05-31  最后修改：2006-06-18
+#
+# 
+#第二版：2007-09-04
+#修改 增加区域和离散筛选
+#shenhuiyong@baidu.com
+###############################################################
+
+our $version="1.10.0.1(build 20070909) based on ListHost (ListHost Client) Version : 1.10.0.1(build 20070909)";
+$0 =~ s|^(.*/)||;  #将lh前面烦人的路径去掉
+
+#TODO 下一版中要加入配置文件
+#our $ListHostServer = "jx-sf-mon02.jx.baidu.com";
+#our $ListHostPort   = "5555";
+our $ListHostServer = "tc-sf-mon00.tc.baidu.com";
+our $ListHostPort   = "5555";
+our $ListHostServer_2nd = "jx-sf-mon02.jx.baidu.com";
+our $ListHostPort_2nd = "5555";
+
+#TODO  将通讯的控制字串全部用hash，并改良开始及结束信号，加入版本
+#TODO  将模式匹配也用变量保存
+#TODO  增加服务器端对客户端版本的要求, 并增加可以从服务器端获得新客户端版本的功能
+#通讯相关参数
+
+our %COMM =
+(
+	BeginOfOutput  => '==LH-OUTPUT-BEGIN==' , EndOfOutput  => '==LH-OUTPUT-END==',
+	BeginOfCommand => '==LH-COMMAND-BEGIN==', EndOfCommand => '==LH-COMMAND-BEGIN=='
+);
+
+
+###############################################################
+
+use strict;
+use IO::Socket;
+use IO::Select;
+use Getopt::Long;
+
+#================== 选项处理 ========================================
+Getopt::Long::Configure ("no_autoabbrev", "gnu_getopt", "pass_through");
+use vars qw($opt); $opt = {};
+
+#        ---------- 参数处理 ----------
+#                   处理以 - 或者 -- 开头的参数
+GetOptions
+(
+	$opt, 
+	"help",
+	"reverse|r=s@",
+	"version|v",
+	"human-readable|h",
+	"exclude-qstring|X=s@",
+	"exclude|x=s@",
+	"local|l=s@",
+	"discrete|d=s@",
+        "match|m=s@"
+) or die ShowHelp();
+
+if ( $opt->{'help'}    ) { ShowHelp(); exit 0;    }
+if ( $opt->{'version'} ) { ShowVersion(); exit 0; }
+
+
+#        ---------- ARGV处理 ----------
+#                   处理非 - 或者 -- 参数，包括无效参数
+my %QString = ();  $QString{'Count'} = 0;
+my @QName = qw( IDCN PROJ MODU FUNC );
+
+#newly added by chenxiue
+if ( $opt->{'reverse'} )
+{
+	my $index = 0;
+	foreach my $reversename ( @{ $opt->{'reverse'} })
+	{
+		$QString{'QString'} .= sprintf("==|QUERY: %d/%d|IDCN: *|PROJ: *|MODU: *|FUNC: *|OPTS: reverse %s|==\n", 
+                $index+1, scalar(@{ $opt->{'reverse'} }),$reversename );
+		$index ++;
+	}
+}
+
+else
+{
+	my $DQS_Result = DealQString(\@ARGV, \%QString);
+	
+	
+	if( $DQS_Result eq 'SUCCESS' )
+	{
+	}
+	elsif( $DQS_Result eq 'SHOWHELP' )
+	{
+		ShowHelp(); exit;
+	}
+	else
+	{
+		InvalidOption($DQS_Result); exit;
+	}
+	
+	
+	#        ---------- -X 大X QString Exclude处理 ----------
+	#                   处理排除某些QString的操作
+	my %QString_Exclude = ();  $QString_Exclude{'Count'} = 0;
+	
+	if ( $opt->{'exclude-qstring'} )
+	{
+		my $DQS_Result = DealQString( \@{$opt->{'exclude-qstring'}}, \%QString_Exclude );
+		if( $DQS_Result eq 'SUCCESS' )
+		{
+		}
+		elsif( $DQS_Result eq 'SHOWHELP' )
+		{
+			ShowHelp(); exit;
+		}
+		else
+		{
+			InvalidOption($DQS_Result); exit;
+		}
+	}
+	
+	#到此步，应该保证所有的选项都是正确的，有错误选项应该已经退出
+	#====================================================================
+	
+	
+	
+	#================== 发送查询及取得结果 ==============================
+	
+	#        ---------- 转换命令字串 ----------------
+	# 目标命令字串如下（在单引号之间的）
+	#   '==|SERIAL: 1/3|IDCN: tc jx|PROJ: shifen|MODU: sfrd|FUNC: zxj zzj|extra-info|=='
+	#  3个序列中的第1个                                                   为扩展而用
+	
+	for( my $i = 0; $i < $QString{'Count'}; $i++ )
+	{
+		my $tmp_cmdstr = sprintf("==|QUERY: %d/%d", $i+1, $QString{'Count'} );
+	
+		foreach my $j ( @QName )
+		{
+			$tmp_cmdstr .= sprintf( "|%s:", $j );
+	
+			for( my $k=0; $k < $QString{ $i }{ $j }{'Count'}; $k++ )
+			{
+				$tmp_cmdstr .= sprintf( " %s", $QString{ $i }{ $j }{ $k } );
+			}
+		}
+	
+		$QString{ $i } = $tmp_cmdstr . "|OPTS: nothing|==\n";
+	
+		#整个命令字串都存储在这里
+		$QString{'QString'} .= $QString{ $i };
+	}
+}
+
+#        ---------- 发送命令字串 ----------------
+
+my $server = OpenServer();
+
+#CommandSend的结果储存在QResult中，这是一个引用传递
+my %QResult = ();
+my $CMD = sprintf( "%s\n%s%s\n", $COMM{'BeginOfOutput'}, $QString{'QString'}, $COMM{'EndOfOutput'} );
+my $flag = CommandSend($server, $CMD, \%QResult);
+
+if($flag==-1)
+{
+	my $server=OpenServer2();
+	my $flag=CommandSend($server, $CMD, \%QResult);
+	if($flag==-1)
+	{
+		exit;
+	}
+}
+
+
+#        ---------- 返回结果处理 ----------------
+
+my $ResultStr = GetResultString( \%QResult );
+
+
+
+#zengfuwei@baidu.com --20120926
+if ( $opt -> {'match'}) 
+{
+        my @Result_array = split '\s+',$ResultStr;
+        my @match_array;
+        foreach my $para ( @{ $opt->{'match'} }) 
+        {
+                my @tmp_array = grep { /$para/ } @Result_array;
+                push @match_array,@tmp_array;
+        }
+        $ResultStr = join ' ',@match_array;
+        $ResultStr .= " "; 
+        die "no match!\n" unless @match_array;
+}
+
+
+
+#shenhuiyong@baidu.com --20070904
+
+if( $opt->{'local'}) {
+        #copy resultset
+	my @Result_array = split(/\ /,$ResultStr);
+
+	my $temp_result     ="";
+	
+	foreach my $para ( @{ $opt->{'local'} }) {
+	    my @num = ();
+	    
+	    #flag = '-' '~ '
+	    my $flag= "~";
+	    
+	    #head and back space
+	    $para =~ s/^\ *//;
+	    $para =~ s/\ *$//;
+	    
+	    #Using "-"  01-02
+	    if ($para =~/-/){
+	        $flag = "-";
+	    }
+	    
+	    @num = split(/\ *$flag\ */,$para);
+       
+	        
+	    if ( ( $num[0] !~ /[0-9][0-9]*/ )   || ( $num[1] !~ /[0-9][0-9]*/ ) ){
+	        InvalidOption("-l");
+		last;
+	    }
+	    
+	    my $zero    = "0";
+	    #operate single num
+	    
+	    if ( length($num[0]) == 1 ){
+                 $num[0] = $zero.$num[0];
+	    }
+            if ( ( length($num[1]) ==1 ) ){
+	         $num[1] = $zero.$num[1];
+	    }
+	   
+            my @seq_num = ();
+	    if ($num[1] - $num[0] <= 0){
+	        my $temp = $num[0];
+		$num[0]  = $num[1];
+		$num[1]  = $temp;
+	    }
+            #@seq_num =`seq -w $num[0] $num[1]`;
+	    @seq_num  = ($num[0]...$num[1]);
+	    
+	    chomp @seq_num ;
+	    #print length($seq_num[0]);
+
+	    for(my $num_pos =0;$num_pos<@seq_num;$num_pos++){
+                if ( (length($seq_num[$num_pos]) == 1) ){ 
+                    $seq_num[$num_pos]=$zero.$seq_num[$num_pos]; 
+	       }
+	    }
+	    
+            #print @seq_num;
+
+	    for(my $pos = 0 ;$pos< @Result_array;$pos++){
+	        for (my $num_p = 0;$num_p < @seq_num;$num_p++ ){
+		    chomp $seq_num[$num_p];
+		    my $match_str = $seq_num[$num_p]."\\.";
+		    
+		    if ( $Result_array[$pos] =~ /$match_str/ ){
+		        $temp_result.= $Result_array[$pos]." ";
+			last;
+		    }
+		}
+		
+	    }
+	   
+	}
+        
+	#Modify the result set
+	$ResultStr =  $temp_result;
+}
+
+if ( $opt->{'discrete'})
+{
+    my @Result_array = split(/\ /,$ResultStr);
+    my $temp_result     ="";
+    foreach my $para ( @{ $opt->{'discrete'} }) {
+       my @num = ();
+       #flag = ',' ' '
+       my $flag= ",";
+
+       $para =~ s/^\ *//;
+       $para =~ s/^\ *//;
+
+       @num = split(/\ *$flag\ */,$para);
+       
+       my $zero ="0";
+       my $legal = 0;
+       for(my $num_i=0;$num_i< @num;$num_i++){
+           if ($num[$num_i] !~ /[0-9][0-9]*/){
+	       $legal = 1;
+	       last;
+	   }
+	   if ( length($num[$num_i]) == 1){
+	      $num[$num_i] = $zero.$num[$num_i];
+	   }
+       }
+      
+
+       if($legal){
+          InvalidOption("-d");
+	  last;
+       }
+      
+
+       for(my $pos = 0 ;$pos< @Result_array;$pos++){
+          for (my $num_pos = 0;$num_pos < @num;$num_pos++ ){
+              chomp $num[$num_pos];
+	      my $match_str = $num[$num_pos]."\\.";
+
+	      if ( $Result_array[$pos] =~ /$match_str/ ){
+                  $temp_result.= $Result_array[$pos]." ";
+		  last;
+	      }
+	  }
+       }
+       
+    }
+    $ResultStr =  $temp_result;
+}
+
+if( $opt->{'exclude'} )
+{
+	my $ExcludeCount = 0 ;
+
+	#为了使用m修饰符，这样可以将主机逐一分隔开来进行处理
+	$ResultStr =~ s/\ /\n/g ;
+	foreach my $tmp_ex ( @{ $opt->{'exclude'} } )
+	{
+		DealExclude( \$tmp_ex );
+		$ExcludeCount += ( $ResultStr =~ s/^$tmp_ex$//mg ) ;
+	}
+
+	#上述并没有处理剩余的\n，下边将多余的\n合并成一个
+	$ResultStr =~ s/[\n]+/\n/g;
+	$ResultStr =~ s/^\n//;
+
+	if( $opt->{'human-readable'} )
+	{
+		my $ResultCount = 0 ;
+		$ResultCount = $ResultStr =~ tr/\n/\n/ ;
+		$ResultStr .= "$ResultCount results ($ExcludeCount excluded).\n";
+	}
+	else { $ResultStr =~ tr/\n/\ /; }
+}
+else
+{
+	if( $opt->{'human-readable'} )
+	{
+		my $ResultCount = 0 ;
+		$ResultCount = $ResultStr =~ tr/\ /\n/ ;
+		$ResultStr .= "$ResultCount results.\n";
+	}
+	else {}
+}
+#if ($ResultStr eq ''){
+#   print "0 results.\n";
+#}
+#else{
+   print $ResultStr;
+#}
+
+CloseServer($server);
+
+#====================================================================
+
+#================== 服务器连接相关函数 ==============================
+# OpenServer(无)  Return sock句柄
+sub OpenServer
+{
+	my $server = IO::Socket::INET->new
+	(
+		Proto     => "tcp",
+		PeerAddr  => $ListHostServer,
+		PeerPort  => $ListHostPort,
+		Timeout   => 5
+	);
+
+	unless( $server )
+	{
+   		$server = IO::Socket::INET->new
+                (
+                        Proto     => "tcp",
+                        PeerAddr  => $ListHostServer_2nd,
+                        PeerPort  => $ListHostPort_2nd,
+                        Timeout   => 5
+                );
+		unless($server)
+		{
+			die "failed to connect $ListHostServer and $ListHostServer_2nd \n";
+			#TODO 下一版：更友好的反应，如果无法连接服务器，则查看有没有本地备份，如果没有则返回false退出
+		
+		}
+	}
+
+	$server->autoflush(1);
+	return $server;
+}
+
+sub OpenServer2
+{
+        my $server = IO::Socket::INET->new
+        (
+                Proto     => "tcp",
+                PeerAddr  => $ListHostServer_2nd,
+                PeerPort  => $ListHostPort_2nd,
+                Timeout   => 5
+        );
+
+        unless( $server )
+        {
+                $server = IO::Socket::INET->new
+                (
+                        Proto     => "tcp",
+                        PeerAddr  => $ListHostServer,
+                        PeerPort  => $ListHostPort,
+                        Timeout   => 5
+                );
+                unless($server)
+                {
+                        die "failed to connect\n";
+                        #TODO 下一版：更友好的反应，如果无法连接服务器，则查看有没有本地备份，如果没有则返回false退出
+
+                }
+        }
+
+        $server->autoflush(1);
+        return $server;
+}
+
+# CloseServer(服务器句柄)  Return 无
+sub CloseServer
+{
+	my $server = shift ;
+	close $server;
+}
+
+# CommandSend(服务器句柄, 命令, 存储返回结果的变量)  Return 无(从QResult中返回)
+sub CommandSend
+{
+	my ($server, $CMD, $QResult) = @_;
+	print $server "$CMD\n";
+	my $readers=IO::Select->new;
+	$readers->add($server);
+	my $timeout=5;
+	my @ready;
+
+	w1:while(@ready=$readers->can_read($timeout))
+        {
+                foreach my $fh(@ready)
+                {
+                        if($fh==$server)
+                        {
+                                w2: while( my $result = <$server> )
+                                {
+                                        chomp( $result );
+                                        if( $result eq $COMM{'BeginOfOutput'} )
+                                        {
+                                                my $k = 0;
+                                                w3: while( $result = <$server> )
+                                                {
+                                                        chomp( $result );
+   							#接收结果字串   '==|SERIAL: 1/1|OPTS: nothing|LIST: tc-cp-se1.tc jx-cp-se00.jx|=='
+                                                        if( $result =~ /^==\|SERIAL: ([\d]+)\/([\d]+)\|OPTS: ([\w\s\*]+)\|LIST: ([\w
+\s\d\.\*-:,]*)\|==$/ )
+                                                        {
+                                                                $$QResult{ 'Count' } = $2;
+                                                                $$QResult{ $1 - 1 }{ 'OPTS' } = $3;
+                                                                $$QResult{ $1 - 1 }{ 'LIST' } = $4;
+                                                                $k++;
+                                                        }
+                                                        #输出结束，结束循环
+                                                        elsif( $result eq $COMM{'EndOfOutput'} )
+                                                        {
+                                                                close $server;
+                                                                if( $k < $$QResult{ 'Count' } )
+                                                                {
+                                                                        #TODO 缺少数据就结束了，有问题，如何处理？
+                                                                        return -1;
+                                                                }
+                                                                last w2;
+                                                        }
+                                                        else
+                                                        {
+                                                                close $server;
+                                                                print $result."\n";
+                                                                return -1;
+
+                                                        }
+                                                }
+                                        }
+                                }
+                                #PrintLog( $remote_host, $remote_port, "info","After read! [PID: $$]");
+                                #last w1;
+                                return 0;
+                        }
+                        else
+                        {
+                                $readers->remove($fh);
+                                $fh->close;
+                                close $server;
+                                last w1;
+                        }
+                }
+        }
+        return -1;
+        #return $CMDResult;
+}
+#====================================================================
+
+
+#==================选项处理相关函数==================================
+
+#DealQString(按引用传递的待分析的QString列表, 返回处理结果的QString HASH)  Return 处理结果 0：成功 某个QString字串：失败
+sub DealQString
+{
+	my ($ARGV, $QString) = @_;
+
+	#需要注意的：函数内部用到的QName是在外部定义的，而且内部还用到了一个直接定义的，见下面第一个TODO
+
+	#查找我们期待的查询串,允许多个合法查询串
+	foreach my $argvar ( @$ARGV )
+	{
+
+		#Getopt没有识别的-|--选项视为无效选项
+		if( $argvar =~ /^-/ )
+		{
+			return $argvar;
+		}
+		#是否为我们期待的选项?
+		elsif( $argvar =~ /^([\w,\*]+)-([\w,\*]+)-([\w,\*]+)-([\w,\*]+)$/ )
+		{
+			my $tmp_QSC = $$QString{'Count'};
+			
+			#TODO: 这里要增加适应性，最好用循环定义，因为QName是在外部定义的。
+			# $1: 机房名  $2: 项目名  $3:模块名  $4: 服务器功能名
+			$$QString{ $tmp_QSC }{'IDCN'}{'Origin'} = $1;
+			$$QString{ $tmp_QSC }{'PROJ'}{'Origin'} = $2;
+			$$QString{ $tmp_QSC }{'MODU'}{'Origin'} = $3;
+			$$QString{ $tmp_QSC }{'FUNC'}{'Origin'} = $4;
+	
+			#查看机房名 项目名 服务器功能名是否合法
+			foreach my $tmp_qn ( @QName )
+			{
+				# 子项计数置零
+				$$QString{ $tmp_QSC }{ $tmp_qn }{'Count'} = 0;
+	
+				#查看各项下用,分割的子项是否合法
+				my @tmp_qnsplit = split( /,/, $$QString{ $tmp_QSC }{$tmp_qn}{'Origin'} );
+				foreach my $tmp_qnsingle ( @tmp_qnsplit )
+				{
+					#如果子项中含有*,则认为此项就为*,而忽略其它子项
+					if( $tmp_qnsingle eq '*' )
+					{
+						$$QString{ $tmp_QSC }{ $tmp_qn }{ 'Count' } = 1;
+						$$QString{ $tmp_QSC }{ $tmp_qn }{ 0 } = '*';
+						last;
+					}
+					elsif( $tmp_qnsingle =~ /^(\w+)$/ )
+					{
+						my $tmp_qncount = $$QString{ $tmp_QSC }{ $tmp_qn }{ 'Count' };
+						$$QString{ $tmp_QSC }{ $tmp_qn }{ 'Count' }++;
+						$$QString{ $tmp_QSC }{ $tmp_qn }{ $tmp_qncount } = $1;
+						next;
+					}
+					else
+					{
+						return $argvar;
+					}
+				}
+			}
+			$$QString{'Count'}++;
+		}
+		elsif( $argvar eq 'all' )
+		{
+			#TODO
+			#如果选项中出现all，则认为要列出所有服务器，这将忽略其它所有选项
+	
+		}
+		#不匹配上面的选项模式，退出
+		else
+		{
+			return $argvar;
+		}
+	}
+	#上面都不匹配,则是无效选项,当然,如果@ARGV为空,则直接显示帮助
+	if( !$$QString{'Count'} ) { @$ARGV ? return @$ARGV : return "SHOWHELP" ;};
+
+	return "SUCCESS";
+}
+
+
+#        ---------- 处理exclude pattern里面应该转义的字符 -----------
+# DealExclude(需要处理的List)  Return 无
+sub DealExclude
+{
+	my $tmp_ex = shift ; 
+
+	#这里按照有限的正则表达式规则来处理，不处理\n等
+	$$tmp_ex =~ s/\\/\\\\/g;    #所有的\仍然是\
+	$$tmp_ex =~ s/\./\\\./g;    #.比较常用，在这里只是代表.
+	$$tmp_ex =~ s/\*/\.\*/g;    #*按照常规的bash意思表示
+	$$tmp_ex =~ s/\?/\./g  ;    #?按照常规的bash意思表示
+	$$tmp_ex =~ s/\ //g    ;    #不允许出现空格
+}
+#====================================================================
+
+
+#================== 返回结果处理相关函数 ============================
+#GetResultString(输入的存储QResult的hash)  Return 以空格分隔的主机列表
+sub GetResultString
+{
+	my $QResult = shift ;
+	
+	my $ResultString = '';
+	
+	for( my $i=0; $i< $$QResult{ 'Count' }; $i++ )
+	{
+		if( $$QResult{ $i }{ 'LIST' } ) 
+		{
+			$ResultString .= $$QResult{ $i }{ 'LIST' }.' ' ;
+		}
+	}
+	return $ResultString;
+}
+#====================================================================
+
+#================== 帮助及版本、常规信息 ============================
+sub ShowHelp
+{
+	printf "Usage: lh [OPTION]... QUERY_STRING [QUERY_STRING_2 ...]\n";
+	printf " the format of QUERY_STRING is\n";
+	printf "   IDCN1[,IDCN2,...]-PROJ1[,PROJ2,...]-MODU1[,MODU2,...]-FUNC1[,FUNC2,...]\n";
+	printf " IDCN  the short form name of the IDC, such as \`tc\', \`jx\' or \`jx1\', \`tc2\'\n";
+	printf " PROJ  the project name, such as \`cpro\', \`shifen\' or \`ecom\'\n";
+	printf " MODU  the module of the project, such as \`im\', \`sfrd\'\n";
+	printf " FUNC  the function which the server supplys. This depends on the project\n";
+	printf "  *    IDC, PROJ, MODU, FUNC can be replace by *, which means anything.\n";
+	printf "\n";
+	printf "Mandatory arguments to long options are mandatory for short options too.\n";
+	printf " -h, --human-readable  print server list in human readable format,\n";
+	printf "                         default is BASH readable.\n";	
+#	printf "     --offline         only show offline-servers, default is online\n";
+#	printf "                         (not implemented in this version)\n";
+	printf " -x, --exclude=HOSTNAME_PATTERN\n";
+	printf "                       exclude HOSTNAME or HOSTNAME reg-exp\n";
+#	printf " -X, --exclude-qstring=QUERY_STRING\n";
+#	printf "                       exclude servers in this QUERY_STRING\n";
+#	printf "                         (not implemented in this version)\n";
+#	printf "     --get-newest      download the newest version of this client tool\n";
+#	printf "                         (not implemented in this version)\n";
+
+        printf " -m, --match           match HOSTNAME or HOSTNAME regular match\n"; 
+
+        printf " -l, --local   'n~m'   or  'n-m', n-m ,n~m\n";
+        printf "                       display the hosts between n-m \n";
+        printf " -d, --discrete 'i,j,k' or i,j,k\n";	
+        printf "                       display the hosts signed  i,j,k \n";
+	printf "     --help            display this help and exit\n";
+	printf " -v, --version         display version information and exit\n";
+	printf "\n";
+	printf "Written by Zhao Nan (zhaonan\@baidu.com)|Shen Huiyong(shenhuiyong\@baidu.com)\n"
+}
+
+sub ShowVersion
+{
+	printf "lh (ListHost Client) $version\n";
+	printf "Written by Zhao Nan (zhaonan\@baidu.com)|Shen Huiyong(shenhuiyong\@baidu.com)\n\n";
+	printf "Copyright (C) 2007 Baidu.com\n";
+}
+
+sub InvalidOption
+{
+	my $option = shift;
+	printf "$0: invalid : $option\n";
+	printf "Try \`$0 --help\' for more information.\n";
+}
+#====================================================================

@@ -1,0 +1,750 @@
+20121030
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121029000000&etime=20121030000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/querygDtkO0/
+download query result file...
+download finish
+file:20121029_mcam
+
+20121031
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121030000000&etime=20121031000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryOR22aq/
+download query result file...
+download finish
+file:20121030_mcam
+
+20121101
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121031000000&etime=20121101000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryqpXzjS/
+download query result file...
+download finish
+file:20121031_mcam
+
+20121102
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121101000000&etime=20121102000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/querynHrIF7/
+download query result file...
+download finish
+file:20121101_mcam
+
+20121103
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121102000000&etime=20121103000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/query2Kc4jB/
+download query result file...
+download finish
+file:20121102_mcam
+
+20121104
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121103000000&etime=20121104000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryGBuV0h/
+download query result file...
+download finish
+file:20121103_mcam
+
+20121105
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121104000000&etime=20121105000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/querySXCSms/
+download query result file...
+download finish
+file:20121104_mcam
+
+20121106
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121105000000&etime=20121106000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/querydLVaQM/
+download query result file...
+download finish
+file:20121105_mcam
+
+20121107
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121106000000&etime=20121107000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryaJlVBZ/
+download query result file...
+download finish
+file:20121106_mcam
+
+20121108
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121107000000&etime=20121108000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryonUPxC/
+download query result file...
+download finish
+file:20121107_mcam
+
+20121109
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121108000000&etime=20121109000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/queryrW07u2/
+download query result file...
+download finish
+file:20121108_mcam
+
+20121110
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121109000000&etime=20121110000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121109000000&etime=20121110000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryJ0Sy8x/
+download query result file...
+download finish
+file:20121109_mcam
+
+20121111
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121110000000&etime=20121111000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/query9lgFPj/
+download query result file...
+download finish
+file:20121110_mcam
+
+20121112
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121111000000&etime=20121112000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryuarhqj/
+download query result file...
+download finish
+file:20121111_mcam
+
+20121113
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121112000000&etime=20121113000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/querysJvTFM/
+download query result file...
+download finish
+file:20121112_mcam
+
+20121114
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121113000000&etime=20121114000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121113000000&etime=20121114000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryzSdAv1/
+download query result file...
+download finish
+file:20121113_mcam
+
+20121115
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 52 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+Error:query too frequency!
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121114000000&etime=20121115000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryWEr9vk/
+download query result file...
+download finish
+file:20121114_mcam
+
+20121116
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121115000000&etime=20121116000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryyBSs7J/
+download query result file...
+download finish
+file:20121115_mcam
+
+20121117
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121116000000&etime=20121117000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/querytZJ8Fj/
+download query result file...
+download finish
+file:20121116_mcam
+
+20121118
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121117000000&etime=20121118000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryGoq4Sf/
+download query result file...
+download finish
+file:20121117_mcam
+
+20121119
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121118000000&etime=20121119000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121118000000&etime=20121119000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryH00YaD/
+download query result file...
+download finish
+file:20121118_mcam
+
+20121120
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121119000000&etime=20121120000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121119000000&etime=20121120000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryhYAF1G/
+download query result file...
+download finish
+file:20121119_mcam
+
+20121121
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121120000000&etime=20121121000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121120000000&etime=20121121000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryWXH8A4/
+download query result file...
+download finish
+file:20121120_mcam
+
+20121122
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121121000000&etime=20121122000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121121000000&etime=20121122000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryiQYvOz/
+download query result file...
+download finish
+file:20121121_mcam
+
+20121123
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121122000000&etime=20121123000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryhOgsP3/
+download query result file...
+download finish
+file:20121122_mcam
+
+20121124
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121123000000&etime=20121124000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/querylflLQT/
+download query result file...
+download finish
+file:20121123_mcam
+
+20121125
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121124000000&etime=20121125000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121124000000&etime=20121125000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryhs83Bp/
+download query result file...
+download finish
+file:20121124_mcam
+
+20121126
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121125000000&etime=20121126000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121125000000&etime=20121126000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/query0SrdU2/
+download query result file...
+download finish
+file:20121125_mcam
+
+20121127
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121126000000&etime=20121127000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/query74UIz1/
+download query result file...
+download finish
+file:20121126_mcam
+
+20121128
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121127000000&etime=20121128000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryQrVgNI/
+download query result file...
+download finish
+file:20121127_mcam
+
+20121129
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121128000000&etime=20121129000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121128000000&etime=20121129000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryZrTKAg/
+download query result file...
+download finish
+file:20121128_mcam
+
+20121130
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121129000000&etime=20121130000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121129000000&etime=20121130000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryaBe6kJ/
+download query result file...
+download finish
+file:20121129_mcam
+
+20121201
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121130000000&etime=20121201000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/querye1b6vQ/
+download query result file...
+download finish
+file:20121130_mcam
+
+20121202
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121201000000&etime=20121202000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121201000000&etime=20121202000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryPnRZFe/
+download query result file...
+download finish
+file:20121201_mcam
+
+20121203
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121202000000&etime=20121203000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121202000000&etime=20121203000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryiR5lx3/
+download query result file...
+download finish
+file:20121202_mcam
+
+20121204
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121203000000&etime=20121204000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/query6E3BXv/
+download query result file...
+download finish
+file:20121203_mcam
+
+20121205
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121204000000&etime=20121205000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryZay4Sc/
+download query result file...
+download finish
+file:20121204_mcam
+
+20121206
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121205000000&etime=20121206000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/query0FFFFH/
+download query result file...
+download finish
+file:20121205_mcam
+
+20121207
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121206000000&etime=20121207000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121206000000&etime=20121207000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/query4dW88T/
+download query result file...
+download finish
+file:20121206_mcam
+
+20121208
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121207000000&etime=20121208000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryZ8YbwT/
+download query result file...
+download finish
+file:20121207_mcam
+
+20121209
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121208000000&etime=20121209000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/querysxvJk7/
+download query result file...
+download finish
+file:20121208_mcam
+
+20121210
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121209000000&etime=20121210000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryJiY1ct/
+download query result file...
+download finish
+file:20121209_mcam
+
+20121211
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121210000000&etime=20121211000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/query6aHKJ0/
+download query result file...
+download finish
+file:20121210_mcam
+
+20121212
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121211000000&etime=20121212000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryPOYVTW/
+download query result file...
+download finish
+file:20121211_mcam
+
+20121213
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121212000000&etime=20121213000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/queryALdTB5/
+download query result file...
+download finish
+file:20121212_mcam
+
+20121214
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121213000000&etime=20121214000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryp3OAqj/
+download query result file...
+download finish
+file:20121213_mcam
+
+20121215
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121214000000&etime=20121215000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query err, curl err code 28 @see man curl
+**fail**
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121214000000&etime=20121215000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver2.m1.baidu.com/home/work/noah/web/data/aries/queryRsD5JS/
+download query result file...
+download finish
+file:20121214_mcam
+
+20121216
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121215000000&etime=20121216000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryOczAwd/
+download query result file...
+download finish
+file:20121215_mcam
+
+20121217
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121216000000&etime=20121217000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryMIP5om/
+download query result file...
+download finish
+file:20121216_mcam
+
+20121218
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121217000000&etime=20121218000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryVr92Br/
+download query result file...
+download finish
+file:20121217_mcam
+
+20121219
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121218000000&etime=20121219000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryd5QcsL/
+download query result file...
+download finish
+file:20121218_mcam
+
+20121220
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121219000000&etime=20121220000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryFwl1wj/
+download query result file...
+download finish
+file:20121219_mcam
+
+20121221
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121220000000&etime=20121221000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:m1-noah-saver1.m1.baidu.com/home/work/noah/web/data/aries/querybxge04/
+download query result file...
+download finish
+file:20121220_mcam
+
+20121222
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121221000000&etime=20121222000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/querypj3r3X/
+download query result file...
+download finish
+file:20121221_mcam
+
+20121223
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121222000000&etime=20121223000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/query9esbu9/
+download query result file...
+download finish
+file:20121222_mcam
+
+20121224
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121223000000&etime=20121224000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryctWpQi/
+download query result file...
+download finish
+file:20121223_mcam
+
+20121225
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121224000000&etime=20121225000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver2.cq01.baidu.com/home/work/noah/web/data/aries/queryGvqwDn/
+download query result file...
+download finish
+file:20121224_mcam
+
+20121226
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121225000000&etime=20121226000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/querypFtvYR/
+download query result file...
+download finish
+file:20121225_mcam
+
+20121227
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121226000000&etime=20121227000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:db-noah-saver1.db01.baidu.com/home/work/noah/web/data/aries/queryynjbu7/
+download query result file...
+download finish
+file:20121226_mcam
+
+20121228
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121227000000&etime=20121228000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:cq01-noah-saver1.cq01.baidu.com/home/work/noah/web/data/aries/queryrkZkVe/
+download query result file...
+download finish
+file:20121227_mcam
+
+20121229
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121228000000&etime=20121229000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryTLamUe/
+download query result file...
+download finish
+file:20121228_mcam
+
+20121230
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121229000000&etime=20121230000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver1.ai01.baidu.com/home/work/noah/web/data/aries/queryrT3aEn/
+download query result file...
+download finish
+file:20121229_mcam
+
+20121231
+jx-mc-am01.jx jx-mc-am02.jx tc-mc-am01.tc tc-mc-am02.tc 4
+type=machine&host=jx-mc-am01.jx,jx-mc-am02.jx,tc-mc-am01.tc,tc-mc-am02.tc&node=&item=tomcat_flow&stime=20121230000000&etime=20121231000000&level=60&user=&passwd=
+request URL http://query.noah.baidu.com/noah/index.php?r=query/GetData
+querying...
+query result save path:ai-noah-saver2.ai01.baidu.com/home/work/noah/web/data/aries/queryBHLZnu/
+download query result file...
+download finish
+file:20121230_mcam
+

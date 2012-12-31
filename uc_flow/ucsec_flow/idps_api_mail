@@ -1,0 +1,74 @@
+<h2>idps_api流量统计</h2>
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>总访问量
+			<tr class="label"> 
+		      <td rowspan=2>机房
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td class='bold'>jx <td>3,010,546
+                                  <td>2,304,950 <td class=red>30.61%
+                                  <td>3,041,270 <td class=green>-1.01%
+<tr><td class='bold'>tc <td>3,063,285
+                                  <td>2,282,309 <td class=red>34.22%
+                                  <td>3,048,760 <td class=red>0.48%
+<tr><td class='bold'>m1 <td>3,043,313
+                                  <td>2,285,926 <td class=red>33.13%
+                                  <td>3,087,686 <td class=green>-1.44%
+<tr><td class='bold'>cq01 <td>1,522,040
+                                  <td>1,149,362 <td class=red>32.42%
+                                  <td>1,541,747 <td class=green>-1.28%
+<tr><td class='bold'>all <td>10,639,184
+                                  <td>8,022,547 <td class=red>32.62%
+                                  <td>10,719,463 <td class=green>-0.75%
+</TBODY></TABLE><br></div>
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>各服务器访问量
+			<tr class="label"> 
+		      <td rowspan=2>机器
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td class='bold'>jx-dr-ucsec00.jx <td>1,495,230 
+                                  <td>1,160,324 <td class=red>28.86%
+                                  <td>1,525,040 <td class=green>-1.95%
+<tr><td class='bold'>tc-dr-ucsec01.tc <td>1,539,677 
+                                  <td>1,140,134 <td class=red>35.04%
+                                  <td>1,508,319 <td class=red>2.08%
+<tr><td class='bold'>tc-dr-ucsec00.tc <td>1,523,608 
+                                  <td>1,142,175 <td class=red>33.40%
+                                  <td>1,540,441 <td class=green>-1.09%
+<tr><td class='bold'>m1-dr-ucsec01.m1 <td>1,518,579 
+                                  <td>1,144,160 <td class=red>32.72%
+                                  <td>1,541,649 <td class=green>-1.50%
+<tr><td class='bold'>cq01-dr-ucsec00.cq01 <td>1,522,040 
+                                  <td>1,149,362 <td class=red>32.42%
+                                  <td>1,541,747 <td class=green>-1.28%
+<tr><td class='bold'>jx-dr-ucsec01.jx <td>1,515,316 
+                                  <td>1,144,626 <td class=red>32.39%
+                                  <td>1,516,230 <td class=green>-0.06%
+<tr><td class='bold'>m1-dr-ucsec00.m1 <td>1,524,734 
+                                  <td>1,141,766 <td class=red>33.54%
+                                  <td>1,546,037 <td class=green>-1.38%
+</TBODY></TABLE><br></div>
+</BODY></HEAD></HTML>

@@ -1,0 +1,290 @@
+#!/bin/bash
+#by aoguoqing@baidu.com
+#本工具用来查询noah监控数据，使用细节请参考帮助
+
+trap "my_exit" 1 2 3 15
+
+TYPE=""
+HOST=""
+NODE=""
+declare -a LIST
+ITEM=""
+STIME=""
+ETIME=""
+LEVEL=""
+OUTFILE=""
+USER=""
+PASSWD=""
+TIMEOUT=600
+HOSTPERQUERY=10
+
+#工具使用方法
+function usage ()
+{
+    echo "version:2.0"
+    echo "example: `basename $0` -t machine -h tc-wiki-web00.tc -i CPU_IDLE -s 201106010000 -e 201106020000 -l 60 -d /tmp/result/"
+    echo "-t machine or cluster, machine:monitor data , cluster:cluster monitor data"
+    echo "-h hostname list,seperated by ','(when -h is followed by a filename, file content will be treated as hostname list, one hostname per line)"
+    echo "-n nodepath of noah service tree, seperated by comma','"
+    echo "-i monitor item list, seperated by comma','"
+    echo "-s starttime (example:20110215123000)"
+    echo "-e endtime"
+    echo "-l required sampling inteval, default 120, If you need the original data, set -l to 5"
+    echo "-d result save path, default directory:\"noah_data\""
+    echo "-T seconds, request timeout"
+    echo "see:\"http://op.baidu.com/twiki/bin/view/OP/%e7%9b%91%e6%8e%a7%e6%95%b0%e6%8d%ae%e6%9f%a5%e8%af%a2%e5%b7%a5%e5%85%b7%e8%af%b4%e6%98%8e\" for more information"
+    echo "email:weiwei02@baidu.com"
+    exit 1
+}
+
+#获取参数
+function getparam()
+{
+    while getopts :n:l:t:T:h:i:s:e:d:u:p: OPTION
+    do
+        case $OPTION in
+        t)TYPE=$OPTARG
+            ;;
+        h)HOSTFILE=$OPTARG
+            if [ -f "$HOSTFILE" ]; then
+                result=`echo $HOSTFILE | grep -oP "\w+-\w+-\w+\.\w+"`
+                if [ -z "$result" ];then
+                    echo try filelist "$HOSTFILE"
+                    HOST=`cat "$HOSTFILE" | sed 's/$/,/g'| tr -d '\n' | sed 's/.$//g'`
+                else
+                    HOST=$HOSTFILE
+                fi
+            else
+                HOST=$HOSTFILE
+            fi
+            ;;
+        n)NODEFILE=$OPTARG
+            if [ -f "$NODEFILE" ]; then
+                echo try filelist "$NODEFILE"
+                result=`echo $NODEFILE | grep -oP "\w+-\w+-\w+\.\w+"`
+                if [ -z "$result" ];then
+                    echo try filelist "$NODEFILE"
+                    NODE=`cat "$NODEFILE" | sed 's/$/,/g'| tr -d '\n' | sed 's/.$//g'`
+                else
+                    NODE=$NODEFILE
+                fi
+            else
+                NODE=$NODEFILE
+            fi
+            ;;
+        i)ITEM=$OPTARG
+            ;;
+        s)STIME=$OPTARG
+            ;;
+        e)ETIME=$OPTARG
+            ;;
+        l)LEVEL=$OPTARG
+            ;;
+        d)OUTFILE_PATH=$OPTARG
+            ;;
+        u)USER=$OPTARG
+            ;;
+        p)PASSWD=$OPTARG
+            ;;
+        T)TIMEOUT=$OPTARG
+            ;;
+        \?)
+            usage
+            ;;
+        esac
+    done
+    return 0
+}
+
+
+#检查参数是否合法
+function checkparm()
+{
+    #关键参数不为空
+    [ -z "$TYPE" -o -z "$ITEM" -o -z "$STIME" -o -z "$ETIME" ] && usage
+    [ $TYPE != "cluster" -a $TYPE != "machine" ] && usage
+    #节点名和机器列表不能都为空
+    if [ $TYPE == "machine" ] ;
+    then 
+        if [ -z "$HOST" ]
+        then
+            usage
+            return $?
+        fi
+        SaveIFS=$IFS
+        IFS=","
+        index=0
+        for ELEMENT in $HOST;
+        do 
+            LIST[$index]=$ELEMENT
+            ((index=index+1))
+        done
+        IFS=$SaveIFS
+    fi
+
+
+    if [ $TYPE == "cluster" ]
+    then
+        if [ -z "$NODE" ]
+        then
+            usage
+            return $?
+        fi
+
+        SaveIFS=$IFS
+        IFS=","
+        index=0
+        for ELEMENT in $NODE;
+        do 
+            LIST[$index]=$ELEMENT
+            ((index=index+1))
+        done
+        IFS=$SaveIFS
+    fi
+
+    echo ${LIST[*]} ${#LIST[@]}
+
+    [[ -z "$OUTFILE_PATH" ]] && OUTFILE_PATH="./noah_data"
+    mkdir -p $OUTFILE_PATH || return 1
+    mkdir -p ./tmp || return 1
+}
+
+
+my_exit()
+{
+    exit 3
+}
+
+
+function get_part_data
+{
+    tmpfile=./tmp/$$.tmp
+    rm -f $tmpfile
+    start=$1
+    end=$2
+
+    local tmplist
+    local tmpmachine
+    local tmpnode
+    local DataDir
+
+    while [ $start -lt $end ]
+    do
+        if [ -z $tmplist ]
+        then
+            tmplist=${LIST[$start]}
+        else
+            tmplist=$tmplist,${LIST[$start]}
+        fi
+        ((start=$start+1))
+    done
+
+    if [ $TYPE == "machine" ];
+    then
+        tmpmachine=$tmplist
+        tmpnode=""
+    else
+        tmpnode=$tmplist
+        tmpmachine=""
+    fi
+
+
+    para="type=$TYPE&host=$tmpmachine&node=$tmpnode&item=$ITEM&stime=$STIME&etime=$ETIME&level=$LEVEL&user=$USER&passwd=$PASSWD"
+
+    echo $para
+    #不使用代理
+    export NO_PROXY="query.noah.baidu.com"
+    Url="http://query.noah.baidu.com/noah/index.php?r=query/GetData"
+    
+    echo "request URL $Url"
+    echo "querying..."
+    curl -o $tmpfile -m $TIMEOUT ""$Url"" -d type=$TYPE -d host=$tmpmachine -d node=$tmpnode -d item=$ITEM -d stime=$STIME -d etime=$ETIME -d level=$LEVEL -d user=$USER -d passwd=$PASSWD -d VERSION=1.2.0 2>/dev/null
+    retcode=$?
+    if [ $retcode -ne 0 ]
+    then
+        echo query err, curl err code $retcode @see man curl
+        exit 5
+    fi
+
+    #一定要判断返回路径还是返回错误信息
+    if [ -f $tmpfile ]; then
+        #意料之外的错误
+        result=`grep -i "</html>" $tmpfile`
+        if [ -n "$result" ]; then
+            cat $tmpfile
+            echo ""
+            rm $tmpfile
+            exit 6
+        fi
+
+        #QueryController打印的错误
+        result=`grep "^Error" $tmpfile`
+        if [ -n "$result" ]; then
+            cat $tmpfile
+            echo ""
+            rm $tmpfile
+            exit 7
+        else
+            DataDir=`cat "$tmpfile"`
+            rm $tmpfile
+            echo "query result save path:$DataDir"
+
+            FileUrl="ftp://$DataDir"
+            echo "download query result file..."
+            wget --cut-dirs=7 --timestamping --level=0 --limit-rate=3m -l0 -r -nH -P "$OUTFILE_PATH" "$FileUrl" > /dev/null 2>&1
+            if [[ $? -ne 0 ]]; then
+                echo "download fail"
+                exit 8
+            fi
+            echo "download finish"
+            #删除服务器上数据
+            #echo data dir $DataDir
+            host=`echo $DataDir | awk -F'/' '{print $1}'`
+            path="/${DataDir#*/}"
+            #echo "delete path:"$path
+            Url="http://$host/noah/index.php?r=query/DelData&path=$path"
+            curl ""$Url""
+        fi
+    fi
+    return 0
+}
+
+
+function getdata
+{
+    start=0
+    end=0
+    len=${#LIST[@]}
+    while [ $start -lt $len ]
+    do
+        ((end=$start+$HOSTPERQUERY))
+        if [ $end -gt $len ]
+        then
+            end=${#LIST[@]}
+        fi
+        get_part_data $start $end
+        ((start = $end))
+    done
+}
+
+
+getparam $*
+retcode=$?
+if [ $retcode -ne 0 ]
+then
+echo param err
+    exit 1
+fi    
+
+checkparm
+retcode=$?
+if [ $retcode -ne 0 ]
+then
+    echo check param err
+    exit 2
+fi
+
+getdata
+retcode=$?
+exit $retcode
+

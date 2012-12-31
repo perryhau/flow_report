@@ -1,0 +1,107 @@
+<h2>uccas2流量统计</h2>
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>总访问量
+			<tr class="label"> 
+		      <td rowspan=2>机房
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td class='bold'>yf <td>30,592,260
+                                  <td>29,165,109 <td class=red>4.89%
+                                  <td>33,323,527 <td class=green>-8.20%
+<tr><td class='bold'>jx <td>57,416,743
+                                  <td>55,103,083 <td class=red>4.20%
+                                  <td>62,523,559 <td class=green>-8.17%
+<tr><td class='bold'>tc <td>42,940,880
+                                  <td>41,335,485 <td class=red>3.88%
+                                  <td>46,884,505 <td class=green>-8.41%
+<tr><td class='bold'>m1 <td>2,987,897
+                                  <td>2,450,038 <td class=red>21.95%
+                                  <td>3,160,374 <td class=green>-5.46%
+<tr><td class='bold'>all <td>133,937,780
+                                  <td>128,053,715 <td class=red>4.59%
+                                  <td>145,891,965 <td class=green>-8.19%
+</TBODY></TABLE><br></div>
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>各服务器访问量
+			<tr class="label"> 
+		      <td rowspan=2>机器
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td class='bold'>yf-dr-uccaslogin00.yf01 <td>503,270 
+                                  <td>416,506 <td class=red>20.83%
+                                  <td>533,024 <td class=green>-5.58%
+<tr><td class='bold'>m1-dr-uccaslogin03.m1 <td>497,621 
+                                  <td>407,330 <td class=red>22.17%
+                                  <td>526,366 <td class=green>-5.46%
+<tr><td class='bold'>tc-sf-ac01.tc <td>14,240,795 
+                                  <td>13,753,380 <td class=red>3.54%
+                                  <td>15,581,998 <td class=green>-8.61%
+<tr><td class='bold'>tc-dr-uccas00.tc <td>14,347,838 
+                                  <td>13,753,339 <td class=red>4.32%
+                                  <td>15,573,347 <td class=green>-7.87%
+<tr><td class='bold'>jx-dr-uccas02.jx <td>14,364,821 
+                                  <td>13,735,149 <td class=red>4.58%
+                                  <td>15,591,359 <td class=green>-7.87%
+<tr><td class='bold'>yf-dr-uccaslogin01.yf01 <td>505,807 
+                                  <td>414,842 <td class=red>21.93%
+                                  <td>532,459 <td class=green>-5.01%
+<tr><td class='bold'>jx-dr-uccas00.jx <td>14,266,753 
+                                  <td>13,707,545 <td class=red>4.08%
+                                  <td>15,651,017 <td class=green>-8.84%
+<tr><td class='bold'>yf-dr-uccaslogin02.yf01 <td>502,946 
+                                  <td>414,444 <td class=red>21.35%
+                                  <td>532,886 <td class=green>-5.62%
+<tr><td class='bold'>m1-dr-uccaslogin04.m1 <td>498,261 
+                                  <td>408,403 <td class=red>22.00%
+                                  <td>528,203 <td class=green>-5.67%
+<tr><td class='bold'>m1-dr-uccaslogin00.m1 <td>501,654 
+                                  <td>407,682 <td class=red>23.05%
+                                  <td>521,268 <td class=green>-3.76%
+<tr><td class='bold'>m1-dr-uccaslogin01.m1 <td>493,602 
+                                  <td>409,468 <td class=red>20.55%
+                                  <td>525,582 <td class=green>-6.08%
+<tr><td class='bold'>jx-dr-uccas03.jx <td>14,432,883 
+                                  <td>13,807,454 <td class=red>4.53%
+                                  <td>15,665,936 <td class=green>-7.87%
+<tr><td class='bold'>yf-dr-uccas00.yf01 <td>14,540,088 
+                                  <td>13,974,206 <td class=red>4.05%
+                                  <td>15,880,079 <td class=green>-8.44%
+<tr><td class='bold'>m1-dr-uccaslogin02.m1 <td>497,783 
+                                  <td>409,314 <td class=red>21.61%
+                                  <td>528,457 <td class=green>-5.80%
+<tr><td class='bold'>yf-dr-uccas01.yf01 <td>14,540,149 
+                                  <td>13,945,111 <td class=red>4.27%
+                                  <td>15,845,079 <td class=green>-8.24%
+<tr><td class='bold'>m1-dr-uccaslogin05.m1 <td>498,976 
+                                  <td>407,841 <td class=red>22.35%
+                                  <td>530,498 <td class=green>-5.94%
+<tr><td class='bold'>tc-sf-ac00.tc <td>14,352,247 
+                                  <td>13,828,766 <td class=red>3.79%
+                                  <td>15,729,160 <td class=green>-8.75%
+<tr><td class='bold'>jx-dr-uccas01.jx <td>14,352,286 
+                                  <td>13,852,935 <td class=red>3.60%
+                                  <td>15,615,247 <td class=green>-8.09%
+</TBODY></TABLE><br></div>
+</BODY></HEAD></HTML>

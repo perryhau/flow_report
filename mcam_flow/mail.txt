@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=gbk">
+ <STYLE type=text/css>
+*     { FONT-SIZE: 14px; 
+        FONT-FAMILY: ??ì?  
+}
+H2    { FONT-SIZE: 20px; 
+        TEXT-ALIGN: center;
+        COLOR: #FF0000;
+}
+BODY  { FONT-SIZE: 12px 
+}
+TABLE { MARGIN: 0px auto; 
+        BORDER-COLLAPSE: collapse; 
+        TEXT-ALIGN: center;
+}
+TD {
+        BORDER-RIGHT: #888 1px solid; 
+        PADDING-RIGHT: 4px; 
+        BORDER-TOP: #888 1px solid; 
+        PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; 
+        BORDER-LEFT: #888 1px solid; PADDING-TOP: 1px; 
+        BORDER-BOTTOM: #888 1px solid;
+        height:25; 
+}
+TR.header { 
+        COLOR:#FFFFFF;
+        BACKGROUND-COLOR:#000000;
+        font-weight:bold;
+}
+TR.label {
+        #BACKGROUND-COLOR: #00b0f0;
+        font-weight:bold;
+}
+TR.label2 {
+        #BACKGROUND-COLOR: #93cddd;
+}
+.red {color: #FF0000}
+.green {color: #00FF00}
+.bold {font-weight:bold}
+</STYLE>
+ 
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>总访问量
+			<tr class="label"> 
+		      <td rowspan=2>机房
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td class='bold'>tc <td>141,074
+                                  <td>73,344 <td class=red>92.35%
+                                  <td>256,076 <td class=green>-44.91%
+<tr><td class='bold'>jx <td>141,514
+                                  <td>74,914 <td class=red>88.90%
+                                  <td>254,166 <td class=green>-44.32%
+<tr><td class='bold'>all <td>282,588
+                                  <td>148,258 <td class=red>90.61%
+                                  <td>510,242 <td class=green>-44.62%
+</TBODY></TABLE><br></div>
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>各服务器访问量
+			<tr class="label"> 
+		      <td rowspan=2>机器
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td class='bold'>jx-mc-am02.jx <td>70,850 
+                                  <td>37,467 <td class=red>89.10%
+                                  <td>127,282 <td class=green>-44.34%
+<tr><td class='bold'>jx-mc-am01.jx <td>70,664 
+                                  <td>37,447 <td class=red>88.70%
+                                  <td>126,884 <td class=green>-44.31%
+<tr><td class='bold'>tc-mc-am01.tc <td>70,913 
+                                  <td>36,872 <td class=red>92.32%
+                                  <td>126,360 <td class=green>-43.88%
+<tr><td class='bold'>tc-mc-am02.tc <td>70,161 
+                                  <td>36,472 <td class=red>92.37%
+                                  <td>129,716 <td class=green>-45.91%
+</TBODY></TABLE><br></div>
+</BODY></HEAD></HTML>

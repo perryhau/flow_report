@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=gbk">
+ <STYLE type=text/css>
+*     { FONT-SIZE: 14px; 
+        FONT-FAMILY: ??ì?  
+}
+H2    { FONT-SIZE: 20px; 
+        TEXT-ALIGN: center;
+        COLOR: #FF0000;
+}
+BODY  { FONT-SIZE: 12px 
+}
+TABLE { MARGIN: 0px auto; 
+        BORDER-COLLAPSE: collapse; 
+        TEXT-ALIGN: center;
+}
+TD {
+        BORDER-RIGHT: #888 1px solid; 
+        PADDING-RIGHT: 4px; 
+        BORDER-TOP: #888 1px solid; 
+        PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; 
+        BORDER-LEFT: #888 1px solid; PADDING-TOP: 1px; 
+        BORDER-BOTTOM: #888 1px solid;
+        height:25; 
+}
+TR.header { 
+        COLOR:#FFFFFF;
+        BACKGROUND-COLOR:#000000;
+        font-weight:bold;
+}
+TR.label {
+        #BACKGROUND-COLOR: #00b0f0;
+        font-weight:bold;
+}
+TR.label2 {
+        #BACKGROUND-COLOR: #93cddd;
+}
+.red {color: #FF0000}
+.green {color: #00FF00}
+.bold {font-weight:bold}
+</STYLE>
+ 
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>总访问量
+			<tr class="label"> 
+		      <td rowspan=2>机房
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td>jx <td>7028<tr><td>tc <td>7042<tr><td>m1 <td>7123<tr><td>cq01 <td>3484<tr><td>all <td>24677</TBODY></TABLE><br></div>
+<div>
+   <TABLE width="1045" border=1>
+         <TBODY>
+		    <tr class=header>
+		      <td colspan=6>各服务器访问量
+			<tr class="label"> 
+		      <td rowspan=2>机器
+			  <td>今天
+			  <td colspan="2">上周同期
+			  <td colspan="2">昨天
+			<tr class="label2">
+			  <td>访问量
+			  <td>访问量
+			  <td>增长率
+			  <td>访问量
+			  <td>增长率
+
+<tr><td>jx-dr-ucsec00.jx <td>3464<tr><td>tc-dr-ucsec01.tc <td>3546<tr><td>tc-dr-ucsec00.tc <td>3496<tr><td>m1-dr-ucsec01.m1 <td>3553<tr><td>cq01-dr-ucsec00.cq01 <td>3484<tr><td>jx-dr-ucsec01.jx <td>3564<tr><td>m1-dr-ucsec00.m1 <td>3570</TBODY></TABLE><br></div>
+</BODY></HEAD></HTML>
